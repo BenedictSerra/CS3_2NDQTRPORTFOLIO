@@ -1,0 +1,78 @@
+  *{
+    margin: 0;
+    padding: 0px;
+  }
+
+
+
+  @font-face {
+    font-family: "myFont";
+    src: url(Supercell-Font.ttf);
+  }
+
+
+  .Main {
+    padding: 0px 0px;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.3)50%, rgba(0,0,0,0.3)50%), url(CLASHROYALEBANNER.jpg);
+    background-position: center top ;
+    height: 50vh;  
+    background-repeat: no-repeat;
+  
+  }
+
+
+
+  .navbar {
+    width: 100%;
+    display: flex;     
+    background-color: rgb(14, 54, 91);  
+    justify-content: center;
+  }
+
+
+
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .navbar ul li a {
+    color: rgba(167, 130, 63);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 16px;          
+    border-radius: 6px;          
+    transition: background-color 0.3s, color 0.3s;
+    font-family: "myFont";
+  }
+
+  .navbar a:hover{
+    background-color: rgba(0, 213, 255, 0.156);
+  }
+
+  .background{
+    background-color: rgba(204, 221, 250);
+    height: 109vh;
+    padding-top: 50px;
+  }
+
+  .box{
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255, 1);
+    padding: 20px;
+    margin: auto;
+    width: 1000px;
+    height: 109vh;
+    padding-top: 30px;
+    text-align: left;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    font-family: "myFont";
+    font-size: 14px;
+  }
+
+
