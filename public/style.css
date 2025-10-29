@@ -11,15 +11,7 @@
  }
 
 
-  .Main {
-    padding: 0px 0px;
-    width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.3)50%, rgba(0,0,0,0.3)50%), url(./assets/CLASHROYALEBANNER.jpg);
-    background-position: center top ;
-    height: 50vh;  
-    background-repeat: no-repeat;
-  
-  }
+
 
 
 
@@ -214,3 +206,11 @@ table, th, td {
   padding-top: 100px;
   
 }
+
+
+.footer {
+  background-color: rgb(14, 54, 91);  
+  height: 20vh;
+  padding-top: 100px;
+}
+
